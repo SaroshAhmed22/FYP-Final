@@ -11,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  /* overflow-x: hidden; */
 }
 
 .wrapper .sidebar {
@@ -117,4 +118,16 @@ body.active .wrapper .sidebar {
 body.active .wrapper .section {
   margin-left: 0;
   width: 100%;
+}
+
+/*  */
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 5px !important;
+}
+table {
+  border-spacing: 15px !important;
 }

@@ -21,11 +21,11 @@
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
     />
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <!-- Material Design Bootstrap -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="/css/mdb.min.css" />
     <!-- Your custom styles (optional) -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <!-- Start your project here-->
@@ -40,89 +40,82 @@
         </div>
         <div class="container">
           <!-- ! Our Content Start  -->
-          <!--Section: Content-->
-          <section class="dark-grey-text text-center">
-            <!-- Section heading -->
-            <h3 class="font-weight-bold black-text mb-4 pb-2">
-              SELECT DEPARTMENT
-            </h3>
-            <hr class="w-header" />
-            <!-- Section description -->
-            <p class="lead text-muted mx-auto mt-4 pt-2 mb-5">
-              It's really easy to book a slot just select desired Department
-            </p>
+          <div class="">
+            <!--Section: Content-->
+            <section class="text-center dark-grey-text mb-5">
+              <div class="card">
+                <div class="card-body rounded-top border-top p-5">
+                  <!-- Section heading -->
+                  <h3 class="font-weight-bold my-4">Find Resource</h3>
+                  <!-- Section description -->
 
-            <!--First row-->
-            <div class="row">
-              <!--Grid column-->
-              <div class="col-md-3 mb-4">
-                <!-- Card -->
-                <a
-                  href="./Departs/CE/CE.html"
-                  target="_blank"
-                  class="card hoverable"
-                >
-                  <!-- Card content -->
-                  <div class="card-body my-4">
-                    <p><i class="fas fa-desktop fa-3x"></i></p>
-                    <h5 class="black-text mb-0">Computer Engineering</h5>
-                  </div>
-                </a>
-                <!-- Card -->
-              </div>
-              <!--Grid column-->
+                  <form class="mb-4 mx-md-5" action="">
+                    <div class="row">
+                      <div class="col-md-6 mb-4">
+                        <!-- Name -->
+                        <input
+                          type="text"
+                          id="depart"
+                          class="form-control"
+                          placeholder="Depart"
+                        />
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <!-- Email -->
+                        <input
+                          type="email"
+                          id="day"
+                          class="form-control"
+                          placeholder="Day"
+                        />
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <!-- Email -->
+                        <input
+                          type="email"
+                          id="time-slot"
+                          class="form-control"
+                          placeholder="Your Desired Time Slot i.e 9.30-10.30"
+                        />
+                      </div>
 
-              <!--Grid column-->
-              <div class="col-md-3 mb-4">
-                <!-- Card -->
-                <a href="#!" class="card hoverable">
-                  <!-- Card content -->
-                  <div class="card-body my-4">
-                    <p><i class="fas fa-laptop-code fa-3x"></i></p>
-                    <h5 class="black-text mb-0">Software Engineering</h5>
-                  </div>
-                </a>
-                <!-- Card -->
-              </div>
-              <!--Grid column-->
+                      <div class="col-md-6 mb-4">
+                        <!-- Email -->
+                        <input
+                          type="email"
+                          id="room-no"
+                          class="form-control"
+                          placeholder="Your Desired Room Optional"
+                        />
+                      </div>
+                    </div>
 
-              <!--Grid column-->
-              <div class="col-md-3 mb-4">
-                <!-- Card -->
-                <a href="#!" class="card hoverable">
-                  <!-- Card content -->
-                  <div class="card-body my-4">
-                    <p><i class="fas fa-book-medical fa-3x"></i></p>
-                    <h5 class="black-text mb-0">Biomedical Engineering</h5>
-                  </div>
-                </a>
-                <!-- Card -->
-              </div>
-              <!--Grid column-->
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group mb-4"></div>
 
-              <!--Grid column-->
-              <div class="col-md-3 mb-4">
-                <!-- Card -->
-                <a href="#!" class="card hoverable">
-                  <!-- Card content -->
-                  <div class="card-body my-4">
-                    <p><i class="fas fa-house-damage fa-3x"></i></p>
-                    <h5 class="black-text mb-0">Civil Engineering</h5>
-                  </div>
-                </a>
-                <!-- Card -->
+                        <div class="text-center">
+                          <a href="CE-slots.html" target="_blank">
+                            <button type="btn" class="btn btn-info btn-md">
+                              Submit
+                            </button></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
               </div>
-              <!--Grid column-->
-            </div>
-            <!--First row-->
-          </section>
+            </section>
+            <!--Section: Content-->
+          </div>
 
           <!-- ! Our Content end  -->
         </div>
       </div>
       <div class="sidebar">
         <div class="profile">
-          <img src="img/logo.jfif" alt="profile_picture" />
+          <img src="/img/logo.jfif" alt="profile_picture" />
           <h3>SSUET</h3>
           <p>Resource Allocator</p>
         </div>
@@ -180,10 +173,10 @@
     </div>
 
     <!-- End your project here-->
-    <script src="js/App.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="/js/App.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="/js/mdb.min.js"></script>
     <!-- Your custom scripts (optional) -->
     <script type="text/javascript"></script>
   </body>
